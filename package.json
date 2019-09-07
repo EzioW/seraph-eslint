@@ -1,19 +1,19 @@
 {
-  "name": "serapheslint",
+  "name": "eslint-config-seraph",
   "version": "1.0.0",
-  "description": "base eslint",
+  "description": "seraph eslint",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EzioW/seraphEslint.git"
+    "url": "git+https://github.com/EzioW/seraph-eslint.git"
   },
   "author": "EzioW",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EzioW/seraphEslint/issues"
+    "url": "https://github.com/EzioW/seraph-eslint/issues"
   },
   "homepage": "https://github.com/EzioW/seraphEslint#readme",
   "dependencies": {

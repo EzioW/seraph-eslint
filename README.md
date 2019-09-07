@@ -1,0 +1,2 @@
+# seraphEslint
+base eslint
