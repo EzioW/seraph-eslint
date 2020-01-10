@@ -12,10 +12,20 @@ module.exports = {
     document: false,
   },
   rules: {
-    'max-len': [0],
-    'import/no-unresolved': [0],
-    'no-console': [2, { allow: ['warn', 'error'] }],
-    'arrow-parens': [2, 'as-needed'],
-    'prefer-destructuring': [2, { object: true, array: false }],
+    'max-len': ['off'],
+    'import/no-unresolved': ['off'],
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'arrow-parens': ['error', 'as-needed'],
+    'prefer-destructuring': ['error', { object: true, array: false }],
   },
 };
