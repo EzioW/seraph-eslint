@@ -4,20 +4,18 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 7,
     ecmaFeatures: {
-      legacyDecorators: true
-    }
+      legacyDecorators: true,
+    },
   },
   globals: {
     window: false,
-    document: false
+    document: false,
   },
   rules: {
     'max-len': [0],
     'import/no-unresolved': [0],
     'no-console': [2, { allow: ['warn', 'error'] }],
-    'no-param-reassign': [0],
     'arrow-parens': [2, 'as-needed'],
     'prefer-destructuring': [2, { object: true, array: false }],
-    'react/jsx-filename-extension': [0]
-  }
+  },
 };
