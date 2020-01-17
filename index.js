@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ['airbnb'],
-  parser: 'babel-eslint',
+  extends: ['airbnb-typescript'],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 7,
     ecmaFeatures: {
