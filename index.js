@@ -25,6 +25,7 @@ module.exports = {
       },
     ],
     'no-console': ['error', { allow: ['warn', 'error'] }],
+    'comma-dangle': ['error', 'always-multiline'],
     'arrow-parens': ['error', 'as-needed'],
     'prefer-destructuring': ['error', { object: true, array: false }],
   },
